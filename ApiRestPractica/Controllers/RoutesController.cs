@@ -97,5 +97,11 @@ namespace ApiRestPractica.Controllers
 
             
         }
+
+        public IHttpActionResult POST([FromBody] Route ruta)
+        {
+            
+            return Ok(ruta);
+        }
     }
 }
